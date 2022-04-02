@@ -13,7 +13,7 @@
 
 
     </fragment>
-    
+
     <dialog
         android:id="@+id/addDialog"
         android:name="com.shihs.publisher.AddDialog"

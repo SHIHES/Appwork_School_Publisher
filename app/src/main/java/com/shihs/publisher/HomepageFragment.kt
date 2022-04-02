@@ -43,6 +43,7 @@ class HomepageFragment : Fragment() {
             adapter.submitList(it)
             Log.d("SS", "articleList ${it}")
             Log.d("SS", "articleList ${it.size}")
+            adapter.notifyDataSetChanged()
         }
 
         return binding.root

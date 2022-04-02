@@ -32,7 +32,9 @@ class HomepageVM : ViewModel() {
                 }
 
                 if (snapshot != null) {
+
                     emptyList.clear()
+
                     Log.d("SS", "New post ${snapshot}")
                     for (document in snapshot.toObjects<Article>()) {
 
